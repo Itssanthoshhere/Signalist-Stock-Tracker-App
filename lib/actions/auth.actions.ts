@@ -19,6 +19,11 @@ export const signUpWithEmail = async ({
     });
 
     if (response) {
+      // Explicitly sign in the user after successful signup
+      await auth.api.signInEmail({
+        body: { email, password },
+      });
+
       await inngest.send({
         name: "app/user.created",
         data: {
