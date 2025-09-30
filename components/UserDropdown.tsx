@@ -41,7 +41,6 @@ const UserDropdown = ({
           className="flex items-center gap-3 text-gray-4 hover:text-yellow-500"
         >
           <Avatar className="w-8 h-8">
-            <AvatarImage src="https://img.freepik.com/premium-vector/cws-logo-cws-letter-cws-letter-logo-design-initials-cws-logo-linked-with-circle-uppercase-monogram-logo-cws-typography-technology-business-real-estate-brand_229120-62631.jpg" />
             <AvatarFallback className="text-sm font-bold text-yellow-900 bg-yellow-500">
               {user.name[0]}
             </AvatarFallback>
@@ -57,7 +56,6 @@ const UserDropdown = ({
         <DropdownMenuLabel>
           <div className="relative flex items-center gap-3 py-2">
             <Avatar className="w-10 h-10">
-              <AvatarImage src="https://img.freepik.com/premium-vector/cws-logo-cws-letter-cws-letter-logo-design-initials-cws-logo-linked-with-circle-uppercase-monogram-logo-cws-typography-technology-business-real-estate-brand_229120-62631.jpg" />
               <AvatarFallback className="text-sm font-bold text-yellow-900 bg-yellow-500">
                 {user.name[0]}
               </AvatarFallback>
