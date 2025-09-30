@@ -37,7 +37,7 @@ const UserDropdown = ({
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button
-          variant={"ghost"}
+          variant="ghost"
           className="flex items-center gap-3 text-gray-4 hover:text-yellow-500"
         >
           <Avatar className="w-8 h-8">
